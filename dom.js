@@ -1,4 +1,4 @@
-console.log("working");
+
 const header = document. getElementById("header");
 
 console.log(header);
@@ -13,4 +13,5 @@ function changeBackground(){
     header.style.fontSize = "50px";
 }
 
-header.addEventListener()
+header.addEventListener("click",function changeBackground());
+
