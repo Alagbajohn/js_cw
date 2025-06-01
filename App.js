@@ -24,8 +24,9 @@ fetch('https://fakestoreapi.com/products')S).then((response) => response.json).t
 
         const description = document.createElement("p");
         description.textContent = product.description;
+        
 
-        card.append(description, Production, Img, title, price, );
+        card.append(description, Production, Img, title, price, categorie, id );
         cardcontainer.append(card);
         cardcontainer.classList.add("card-container");
         
